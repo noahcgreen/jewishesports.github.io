@@ -1,3 +1,6 @@
+---
+---
+
 body{
   font-family: Arial, sans-serif;
   line-height: 20pt;
@@ -18,7 +21,7 @@ header{
   width: 100%;
   top: -100px;
   height: 300px;
-  background: url(/assets/images/NHEI_Title_Pic.jpg);
+  background: url({{ "/assets/images/NHEI_Title_Pic.jpg" | relative_url }});
   background-size: cover;
 }
 .navbar ul {
@@ -128,7 +131,7 @@ h1, h2{
   width: 100%;
 }
 .trophies{
-	list-style-image: url(/assets/images/trophy1.png);
+	list-style-image: url({{ "/assets/images/trophy1.png" | relative_url }});
 }
 /* Change the link color to #111 (black) on hover */
 li a:hover {

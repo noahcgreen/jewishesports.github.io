@@ -1,11 +1,11 @@
 <nav class="navbar">
     <ul>
-        <li {% if page.url == "/" %}class="active"{% endif %}>
+        <li {% if page.url == {{ "/" | relative_url }} %}class="active"{% endif %}>
             <a href="/">Home</a>
         </li>
         {% for item in site.pages %}
         <li {% if page.url == item.url %}class="active"{% endif %}>
-            <a href="{{ item.url }}">
+            <a href="{{ item.url | relative_url }}">
                 {{ item.title }}
             </a>
         </li>
