@@ -6,6 +6,7 @@ NHEI_Website
 <html lang="en">
 <head>
 	<title>NHEI Homepage</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="../styles/nhei.css">
 	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
@@ -20,7 +21,7 @@ NHEI_Website
 
 <body>
 	<header>
-		<div class="header_img"></div>
+		<div class="header_img img-fluid"></div>
 		<nav class="navbar">
 		  <ul>
 		  	<li class="active"><a href="index.html">Home</a></li>
@@ -32,16 +33,13 @@ NHEI_Website
 		  </ul>
 		</nav>
 	</header>
-	<div class="main_content">
+
+	<div class="container">
 		<h1>Welcome to the NHEI website</h1>
-		<label class="switch">
-		  <input type="checkbox">
-		  <span class="slider round"></span>
-		</label>
 
 		<!-- use javascript and data file -->
-		<div class="text_box">
-			<p>Congradulations to our recent winners</p>
+		<div class="card">
+			<p>Congratulations to our recent winners</p>
 			<ul>
 				<li>Super Smash Bros. Ultimate</li>
 				<li>Cowman</li>
