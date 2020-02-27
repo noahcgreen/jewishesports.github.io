@@ -1,3 +1,5 @@
+baseurl: /jewishesports
+
 collections:
     pages:
         output: true
