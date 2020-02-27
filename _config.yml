@@ -1,3 +1,4 @@
+# Set to name of project if running on a GitHub project page
 baseurl: /jewishesports.github.io
 
 collections:
