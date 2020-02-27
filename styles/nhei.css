@@ -18,7 +18,7 @@ header{
   width: 100%;
   top: -100px;
   height: 300px;
-  background: url("NHEI_Title_Pic.jpg");
+  background: url(../assets/NHEI_Title_Pic.jpg);
   background-size: cover;
 }
 .navbar ul {
@@ -128,7 +128,7 @@ h1, h2{
   width: 100%;
 }
 .trophies{
-	list-style-image: url(trophy1.png);
+	list-style-image: url(../assets/trophy1.png);
 }
 /* Change the link color to #111 (black) on hover */
 li a:hover {
