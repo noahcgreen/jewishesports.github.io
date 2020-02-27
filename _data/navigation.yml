@@ -1,0 +1,12 @@
+- name: Home
+  url: /
+- name: News
+  url: /news
+- name: Events
+  url: /events
+- name: Hall of Fame
+  url: /hall-of-fame
+- name: About
+  url: /about
+- name: Contact Us
+  url: /contact-us
